@@ -32,7 +32,7 @@ body {
 
 .tekst{
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .over_mij_texst{
@@ -148,8 +148,8 @@ width: 100%;
         margin: 0;
         width: 100%;
         position: absolute;
-        /* top: -1000px;
-        opacity: 0; */
+        top: -100px;
+        opacity: 0;
         transition: all 0.5s ease;
         height: 50vh;
         z-index: -1;
@@ -157,10 +157,10 @@ width: 100%;
     }
 
     .navbar_menu.active {
-        background: #ffffff;
+        background: #000000;
         top: 100%;
         opacity: 1;
-        transition: all 0.5s ease;
+        transition: all s ease;
         z-index: 99;
         height: 50vh;
         font-size: 1.6rem;
@@ -170,7 +170,7 @@ width: 100%;
         padding-left: 25px;
     }
 
-    .navbar__toggle .bar {
+    .navbar_toggle .bar {
         width: 25px;
         height: 3px;
         margin: 5px auto;
